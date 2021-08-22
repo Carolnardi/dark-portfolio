@@ -1,0 +1,245 @@
+:root {
+  --branding-color: #7c1ed0;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  background-color: #302f42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f65282;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--secondary-color);
+}
+
+.hero {
+  background: #3d3c52;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #57c07d;
+}
+.rounded {
+  border-radius: 1.25rem;
+}
+.hero h1 {
+  color: #a3e5f6;
+}
+.hero h2 {
+  color: #f65282;
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+.desciption {
+  color: var(--secondary-color) !important;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  color: #a3e5f6;
+}
+.about-section img {
+  border-radius: 11.25rem;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-section-content {
+  margin: 40px;
+}
+
+.contact-section-content h2 {
+  color: #f65282;
+  font-size: 20px;
+  font-family: var(--default-font-family);
+}
+.contact-section-content .social-links a {
+  margin: 0 20px;
+  color: white;
+  background-color: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 30px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.contact-section-content .social-links a:hover {
+  color: var(--branding-color);
+  background-color: white;
+}
+.contact-section-content img {
+  border-radius: 10.25rem;
+}
+.contact-section-content .email-link a {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.contact-section-content .email-link a:hover {
+  color: white;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  padding-top: 25px;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.contact {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.navbar-brand {
+  color: #f65282 !important;
+}
+.nav-link .active {
+  color: var(--branding-color) !important;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: #a3e5f6;
+  border: 1px solid #a3e5f6;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  transition: all 100ms ease-in-out;
+}
+.btn-branding-outline:hover {
+  color: white;
+}
+.project-desciption {
+  padding: 120px 60px;
+}
+footer {
+  margin: 60px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: #f65282;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: #57c07d;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+.code-by {
+  color: #a3e5f6;
+  font-size: 12px;
+  font-family: var(--default-font-family);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .about-section .about-section-content {
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
